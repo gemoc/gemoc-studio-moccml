@@ -16,7 +16,7 @@
 
   <parent>
     <relativePath>../../../..</relativePath>
-    <groupId>org.eclipse.gemoc.mocc</groupId>
+    <groupId>org.eclipse.gemoc.gemoc-studio-moccml.bundle</groupId>
     <artifactId>org.eclipse.gemoc.mocc.root</artifactId>
     <version>0.1.1-SNAPSHOT</version>
   </parent>
