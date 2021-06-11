@@ -15,13 +15,21 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>org.eclipse.gemoc.moccml.mapping.feedback.model.edit</artifactId>
-	<packaging>eclipse-plugin</packaging>
+	<artifactId>org.eclipse.gemoc.moccml.mapping.feedback.model.bundles</artifactId>
+	<packaging>pom</packaging>
 
 	<parent>
 		<groupId>org.eclipse.gemoc.gemoc-studio-moccml.bundle</groupId>
 		<artifactId>org.eclipse.gemoc.moccml.mapping.parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../../../deployment/org.eclipse.gemoc.moccml.mapping.build</relativePath>
+		<relativePath>../../deployment/org.eclipse.gemoc.moccml.mapping.build</relativePath>
 	</parent>
+	
+	<modules>
+		
+		<module>org.eclipse.gemoc.moccml.mapping.feedback.model</module>
+		<module>org.eclipse.gemoc.moccml.mapping.feedback.model.edit</module>
+		<module>org.eclipse.gemoc.moccml.mapping.feedback.model.editor</module>
+		<module>org.eclipse.gemoc.moccml.mapping.feedback.model.feature</module>
+	</modules>
 </project>

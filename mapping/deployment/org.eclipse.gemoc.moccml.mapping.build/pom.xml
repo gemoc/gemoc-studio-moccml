@@ -44,21 +44,9 @@
 		
 		<module>../../org.eclipse.gemoc.moccml.mapping.feature</module>
 		
-		<module>../../language/org.eclipse.gemoc.moccml.mapping</module>
-		<module>../../language/org.eclipse.gemoc.moccml.mapping.editor.feature</module>
-		<module>../../language/org.eclipse.gemoc.moccml.mapping.xtext</module>
-		<module>../../language/org.eclipse.gemoc.moccml.mapping.xtext.ui</module>
-		
-		<module>../../transformations/org.eclipse.gemoc.moccml.mapping.ecltoqvto</module>
-		<module>../../transformations/org.eclipse.gemoc.moccml.mapping.ecltoqvto.ui</module>
-		<module>../../transformations/org.eclipse.gemoc.moccml.mapping.qvto.helper</module>
-		<module>../../transformations/org.eclipse.gemoc.moccml.mapping.qvto2ccsl.ui</module>
-		<module>../../transformations/org.eclipse.gemoc.moccml.mapping.transfos.feature</module>
-		
-		<module>../../feedback/model/org.eclipse.gemoc.moccml.mapping.feedback.model</module>
-		<module>../../feedback/model/org.eclipse.gemoc.moccml.mapping.feedback.model.edit</module>
-		<module>../../feedback/model/org.eclipse.gemoc.moccml.mapping.feedback.model.editor</module>
-		<module>../../feedback/model/org.eclipse.gemoc.moccml.mapping.feedback.model.feature</module>
+		<module>../../language/</module>
+		<module>../../transformations</module>
+		<module>../../feedback/model</module>
 		
 		<!-- <module>../org.eclipse.gemoc.moccml.mapping.branding</module> -->
 		<module>../org.eclipse.gemoc.moccml.mapping.license.feature</module>
