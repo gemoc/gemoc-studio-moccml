@@ -7,20 +7,22 @@
     http://www.eclipse.org/legal/epl-v10.html
    
     Contributors:
-        I3S Laboratory - initial API and implementation
- *     ENSTA Bretagne - API update, feature enhancement and bug fix
+        I3S laboratory - initial API and implementation
  -->
 
 <project>
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <relativePath>../../..</relativePath>
+    <relativePath>../..</relativePath>
     <groupId>org.eclipse.gemoc.gemoc-studio-moccml.bundle</groupId>
     <artifactId>org.eclipse.gemoc.mocc.root</artifactId>
     <version>0.1.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.eclipse.gemoc.moccml.constraint.ccslmocc.model</artifactId>
-  <packaging>eclipse-plugin</packaging>
+  <artifactId>org.eclipse.gemoc.moccml.constraint.solver.plugins</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  		<module>org.eclipse.gemoc.moccml.constraint.ccslkernel.solver.extension.statemachine</module>
+  </modules>
 </project>

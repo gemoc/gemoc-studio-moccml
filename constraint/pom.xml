@@ -14,29 +14,15 @@
 	
     <modules>
         <!-- plugins -->
-        <module>plugins/solver/org.eclipse.gemoc.moccml.constraint.ccslkernel.solver.extension.statemachine</module>
+        <module>plugins/solver</module>
 
-        <module>plugins/AS/org.eclipse.gemoc.moccml.constraint.fsmkernel.model</module>
-        <module>plugins/editors/tree/org.eclipse.gemoc.moccml.constraint.fsmkernel.model.edit</module>
-        <module>plugins/editors/tree/org.eclipse.gemoc.moccml.constraint.fsmkernel.model.editor</module>
-        <module>plugins/AS/org.eclipse.gemoc.moccml.constraint.ccslmocc.model</module>
-        <module>plugins/editors/tree/org.eclipse.gemoc.moccml.constraint.ccslmocc.model.edit</module>
-        <module>plugins/editors/tree/org.eclipse.gemoc.moccml.constraint.ccslmocc.model.editor</module>
-        
-        <module>plugins/editors/textual/org.eclipse.gemoc.moccml.constraint.fsmkernel.model.xtext.fsmdsl</module>
-        <module>plugins/editors/textual/org.eclipse.gemoc.moccml.constraint.fsmkernel.model.xtext.fsmdsl.ui</module>
-        <module>plugins/editors/textual/org.eclipse.gemoc.moccml.constraint.ccslmocc.model.xtext.mocdsl</module>
-        <module>plugins/editors/textual/org.eclipse.gemoc.moccml.constraint.ccslmocc.model.xtext.mocdsl.ui</module>
-        
-        <module>plugins/editors/graphical/org.eclipse.gemoc.moccml.constraint.fsmkernel.model.design</module>
-        <module>plugins/editors/graphical/org.eclipse.gemoc.moccml.constraint.ccslmocc.model.design</module>
+        <module>plugins/AS</module>
+        <module>plugins/editors/tree</module>
+        <module>plugins/editors/textual</module>
+        <module>plugins/editors/graphical</module>
 
         <!-- feature and update site -->
-        <module>releng/org.eclipse.gemoc.moccml.constraint.feature</module>
-        <module>releng/org.eclipse.gemoc.moccml.constraint.core.feature</module>
-        <module>releng/org.eclipse.gemoc.moccml.constraint.graphical.editors.feature</module>
-        <module>releng/org.eclipse.gemoc.moccml.constraint.text.editors.feature</module>
-        <module>releng/org.eclipse.gemoc.moccml.constraint.ccsl.solver.extension.automata.feature</module>
+        <module>releng</module>
     </modules>
 
     <properties>

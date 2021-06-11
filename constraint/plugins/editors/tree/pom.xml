@@ -15,12 +15,18 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <relativePath>../../../..</relativePath>
+    <relativePath>../../..</relativePath>
     <groupId>org.eclipse.gemoc.gemoc-studio-moccml.bundle</groupId>
     <artifactId>org.eclipse.gemoc.mocc.root</artifactId>
     <version>0.1.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>org.eclipse.gemoc.moccml.constraint.ccslmocc.model.design</artifactId>
-  <packaging>eclipse-plugin</packaging>
+  <artifactId>org.eclipse.gemoc.moccml.constraint.editors.tree.plugins</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+        <module>org.eclipse.gemoc.moccml.constraint.fsmkernel.model.edit</module>
+        <module>org.eclipse.gemoc.moccml.constraint.fsmkernel.model.editor</module>
+        <module>org.eclipse.gemoc.moccml.constraint.ccslmocc.model.edit</module>
+        <module>org.eclipse.gemoc.moccml.constraint.ccslmocc.model.editor</module>
+  </modules>
 </project>
